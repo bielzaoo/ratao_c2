@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px;
+  place-content: center;
+  background-color: #000;
+}
+
+#principal {
+  display: grid;
+  grid-column: 2;
+  grid-row: 2;
+  gap: 20px;
+  justify-items: center;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+#login {
+  background-color: #7b0000;
+  border-radius: 7px;
+}
+
+#forms {
+  display: grid;
+  gap: 10;
+  padding: 20px;
+}
+
+#login label {
+  font-size: 0.7rem;
+  text-align: left;
+  padding-left: 0px;
+  padding-bottom: 5px;
+  color: #ffff;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: bold;
+}
+
+#login button {
+  font-size: 0.7rem;
+  padding: 10px;
+  color: #4f0202;
+  border-radius: 7px;
+  border: 0px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#login button:hover {
+  background-color: #bab5b5;
+}
